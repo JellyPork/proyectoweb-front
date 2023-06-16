@@ -1,0 +1,36 @@
+{
+  "name": "proyectoweb-front",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "axios": "^1.4.0",
+    "core-js": "^3.29.0",
+    "firebase": "^9.22.1",
+    "gapi": "^0.0.3",
+    "roboto-fontface": "*",
+    "vite": "^4.3.9",
+    "vue": "^3.2.0",
+    "vue-google-oauth2": "^1.5.10",
+    "vue-router": "^4.2.2",
+    "vue3-google-login": "^2.0.15",
+    "vue3-google-oauth2": "^1.0.7",
+    "vue3-google-signin": "^1.3.1",
+    "vuetify": "^3.0.0",
+    "vuex": "^4.1.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.60.0",
+    "vite-plugin-vuetify": "^1.0.0"
+  }
+}
